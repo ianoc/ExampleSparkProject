@@ -1,7 +1,7 @@
 import AssemblyKeys._ // put this at the top of the file
 
 
-name := "Sample Project"
+name := "SampleProject"
 
 organization := "com.example"
 
@@ -20,8 +20,9 @@ resolvers ++= Seq(
 libraryDependencies ++= {
   Seq(
     "org.scalatest" %% "scalatest" % "1.9.1" % "test",
+    "org.json4s" %% "json4s-native" % "3.2.2",
     "org.spark-project" %% "spark-core" % "0.7.0" % "provided",
-    "com.typesafe" % "config" % "0.3.1",
+    "com.typesafe" % "config" % "0.3.1"
   )
 }
 
