@@ -7,7 +7,7 @@ organization := "com.example"
 
 version := "0.0.1-SNAPSHOT"
 
-scalaVersion := "2.9.2"
+scalaVersion := "2.9.3"
 
 resolvers ++= Seq(
   "Akka Repository" at "http://repo.akka.io/releases/",
@@ -21,7 +21,7 @@ libraryDependencies ++= {
   Seq(
     "org.scalatest" %% "scalatest" % "1.9.1" % "test",
     "org.json4s" %% "json4s-native" % "3.2.2",
-    "org.spark-project" %% "spark-core" % "0.7.0" % "provided",
+    "org.spark-project" %% "spark-core" % "0.7.3" % "provided",
     "com.typesafe" % "config" % "0.3.1"
   )
 }
