@@ -21,7 +21,7 @@ libraryDependencies ++= {
   Seq(
     "org.scalatest" %% "scalatest" % "1.9.1" % "test",
     "org.json4s" %% "json4s-native" % "3.2.2",
-    "org.spark-project" %% "spark-core" % "0.7.3" % "provided",
+    "org.apache.spark" %% "spark-core" % "0.8.0-incubating" % "provided",
     "com.typesafe" % "config" % "0.3.1"
   )
 }

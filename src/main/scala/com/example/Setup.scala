@@ -1,6 +1,7 @@
 package com.example
 
-import spark.SparkContext
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkContext._
 import com.typesafe.config.ConfigFactory
 
 object CoreSite {
